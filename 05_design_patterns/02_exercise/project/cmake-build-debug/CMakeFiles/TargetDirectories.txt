@@ -1,0 +1,7 @@
+/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/CMakeFiles/runner.dir
+/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/CMakeFiles/utils.dir
+/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/tests/CMakeFiles/rebuild_cache.dir
+/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/tests/CMakeFiles/edit_cache.dir
+/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/tests/CMakeFiles/tests.dir

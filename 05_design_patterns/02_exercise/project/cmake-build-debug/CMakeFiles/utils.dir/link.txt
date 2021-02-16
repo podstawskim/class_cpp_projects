@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libutils.a  CMakeFiles/utils.dir/src/Calculator.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libutils.a

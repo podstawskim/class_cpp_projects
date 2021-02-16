@@ -1,0 +1,579 @@
+-------------------------------------------------------------------------------
+Benchmark                                     Time             CPU   Iterations
+-------------------------------------------------------------------------------
+vectorAt/1                                 7,54 ns         7,53 ns     93885379
+vectorAt/2                                 8,10 ns         7,99 ns     93602910
+vectorAt/4                                 7,51 ns         7,51 ns     91373076
+vectorAt/8                                 7,48 ns         7,47 ns     94134101
+vectorAt/16                                8,03 ns         7,95 ns     94108790
+vectorAt/32                                7,54 ns         7,54 ns     88631155
+vectorAt/64                                7,54 ns         7,53 ns     92082243
+vectorAt/128                               7,55 ns         7,54 ns     92690678
+vectorAt/256                               7,65 ns         7,64 ns     91964896
+vectorAt/512                               7,64 ns         7,63 ns     91123290
+vectorAt/1024                              7,68 ns         7,66 ns     91695048
+vectorAt/2048                              7,93 ns         7,85 ns     92905966
+vectorAt_BigO                              7,68 (1)        7,65 (1)  
+vectorAt_RMS                                  3 %             2 %    
+vectorOperator/1                           5,31 ns         5,30 ns    131849089
+vectorOperator/2                           5,76 ns         5,69 ns    132711485
+vectorOperator/4                           5,36 ns         5,36 ns    116705569
+vectorOperator/8                           5,26 ns         5,25 ns    132197692
+vectorOperator/16                          5,33 ns         5,32 ns    133677074
+vectorOperator/32                          5,32 ns         5,32 ns    133069729
+vectorOperator/64                          5,36 ns         5,35 ns    131032159
+vectorOperator/128                         5,52 ns         5,51 ns    133937968
+vectorOperator/256                         5,32 ns         5,31 ns    132905504
+vectorOperator/512                         5,54 ns         5,53 ns    124674955
+vectorOperator/1024                        5,25 ns         5,25 ns    133912345
+vectorOperator/2048                        5,27 ns         5,26 ns    131754786
+vectorOperator_BigO                        5,38 (1)        5,37 (1)  
+vectorOperator_RMS                            3 %             2 %    
+vectorFront/1                              5,58 ns         5,54 ns    123391504
+vectorFront/2                              5,32 ns         5,31 ns    135559084
+vectorFront/4                              5,47 ns         5,45 ns    133850890
+vectorFront/8                              5,04 ns         5,04 ns    135286614
+vectorFront/16                             5,19 ns         5,19 ns    139793106
+vectorFront/32                             5,10 ns         5,09 ns    137252211
+vectorFront/64                             5,01 ns         5,01 ns    138474016
+vectorFront/128                            5,17 ns         5,11 ns    136729432
+vectorFront/256                            5,11 ns         5,10 ns    135127309
+vectorFront/512                            5,03 ns         5,03 ns    138622096
+vectorFront/1024                           5,19 ns         5,15 ns    137808839
+vectorFront/2048                           5,08 ns         5,07 ns    138902669
+vectorFront_BigO                           5,19 (1)        5,17 (1)  
+vectorFront_RMS                               3 %             3 %    
+vectorBack/1                               5,15 ns         5,14 ns    135312766
+vectorBack/2                               5,11 ns         5,11 ns    136260998
+vectorBack/4                               5,14 ns         5,13 ns    135743096
+vectorBack/8                               5,10 ns         5,09 ns    138635823
+vectorBack/16                              5,16 ns         5,16 ns    138561729
+vectorBack/32                              5,11 ns         5,11 ns    134708644
+vectorBack/64                              5,07 ns         5,06 ns    139317345
+vectorBack/128                             5,10 ns         5,10 ns    136817622
+vectorBack/256                             5,20 ns         5,19 ns    139286851
+vectorBack/512                             5,07 ns         5,07 ns    139821029
+vectorBack/1024                            5,07 ns         5,07 ns    138795257
+vectorBack/2048                            5,09 ns         5,09 ns    135835290
+vectorBack_BigO                            5,12 (1)        5,11 (1)  
+vectorBack_RMS                                1 %             1 %    
+vectorData/1                               6,56 ns         6,55 ns    108898569
+vectorData/2                               6,55 ns         6,55 ns    108315539
+vectorData/4                               6,68 ns         6,66 ns    106471975
+vectorData/8                               7,13 ns         6,96 ns    102826253
+vectorData/16                              6,62 ns         6,61 ns    106219936
+vectorData/32                              6,51 ns         6,49 ns    106467117
+vectorData/64                              6,85 ns         6,84 ns     96750563
+vectorData/128                             6,60 ns         6,59 ns    108567529
+vectorData/256                             6,55 ns         6,55 ns    103812899
+vectorData/512                             6,57 ns         6,56 ns    108542277
+vectorData/1024                            6,50 ns         6,50 ns    105885734
+vectorData/2048                            6,56 ns         6,55 ns    107110615
+vectorData_BigO                            6,64 (1)        6,62 (1)  
+vectorData_RMS                                3 %             2 %    
+vectorEmpty/1                              5,38 ns         5,37 ns    127090180
+vectorEmpty/2                              5,57 ns         5,57 ns    121184842
+vectorEmpty/4                              5,34 ns         5,34 ns    132102889
+vectorEmpty/8                              5,45 ns         5,41 ns    131640809
+vectorEmpty/16                             5,66 ns         5,66 ns    116606420
+vectorEmpty/32                             5,36 ns         5,35 ns    128532344
+vectorEmpty/64                             5,34 ns         5,34 ns    132420264
+vectorEmpty/128                            5,45 ns         5,44 ns    129620028
+vectorEmpty/256                            5,34 ns         5,33 ns    128619727
+vectorEmpty/512                            5,42 ns         5,41 ns    130648202
+vectorEmpty/1024                           5,33 ns         5,33 ns    129867720
+vectorEmpty/2048                           5,64 ns         5,64 ns    120502668
+vectorEmpty_BigO                           5,44 (1)        5,43 (1)  
+vectorEmpty_RMS                               2 %             2 %    
+vector_size/1                              5,47 ns         5,39 ns    132450331
+vector_size/2                              5,37 ns         5,34 ns    131145084
+vector_size/4                              5,48 ns         5,47 ns    112683312
+vector_size/8                              5,30 ns         5,30 ns    133620936
+vector_size/16                             5,37 ns         5,36 ns    133188728
+vector_size/32                             5,31 ns         5,30 ns    130429112
+vector_size/64                             5,32 ns         5,31 ns    130142971
+vector_size/128                            5,36 ns         5,35 ns    133019155
+vector_size/256                            5,27 ns         5,27 ns    133107684
+vector_size/512                            5,63 ns         5,61 ns    133981549
+vector_size/1024                           5,28 ns         5,27 ns    128341462
+vector_size/2048                           5,29 ns         5,28 ns    131169659
+vector_size_BigO                           5,37 (1)        5,36 (1)  
+vector_size_RMS                               2 %             2 %    
+vectorMaxSize/1                            27,8 ns         27,8 ns     23291719
+vectorMaxSize/2                            27,4 ns         27,4 ns     25600047
+vectorMaxSize/4                            34,3 ns         33,2 ns     23005656
+vectorMaxSize/8                            34,6 ns         33,7 ns     24980997
+vectorMaxSize/16                           30,7 ns         30,1 ns     23339324
+vectorMaxSize/32                           29,0 ns         28,9 ns     21581558
+vectorMaxSize/64                           28,4 ns         28,3 ns     24293325
+vectorMaxSize/128                          28,7 ns         28,5 ns     25059696
+vectorMaxSize/256                          28,6 ns         28,4 ns     24305218
+vectorMaxSize/512                          29,1 ns         28,8 ns     24360282
+vectorMaxSize/1024                         30,0 ns         29,5 ns     23738148
+vectorMaxSize/2048                         29,4 ns         29,1 ns     24329209
+vectorMaxSize_BigO                        29,83 (1)       29,48 (1)  
+vectorMaxSize_RMS                             8 %             6 %    
+vectorReserve/1                            15,2 ns         15,1 ns     46587468
+vectorReserve/2                            28,5 ns         28,3 ns     24951523
+vectorReserve/4                            52,5 ns         52,1 ns     13796094
+vectorReserve/8                             117 ns          115 ns      6287500
+vectorReserve/16                            252 ns          244 ns      2914153
+vectorReserve/32                            546 ns          506 ns      1325130
+vectorReserve/64                            793 ns          789 ns       890529
+vectorReserve/128                          1548 ns         1543 ns       449418
+vectorReserve/256                          3725 ns         3589 ns       225364
+vectorReserve/512                          6227 ns         6186 ns       113349
+vectorReserve/1024                        12177 ns        12157 ns        55994
+vectorReserve/2048                        26278 ns        25778 ns        28870
+vectorReserve_BigO                        12,64 N         12,44 N    
+vectorReserve_RMS                             7 %             5 %    
+vectorCapacity/1                           14,1 ns         13,6 ns     51207397
+vectorCapacity/2                           13,2 ns         12,9 ns     49280158
+vectorCapacity/4                           12,6 ns         12,5 ns     56384315
+vectorCapacity/8                           12,0 ns         11,9 ns     58023392
+vectorCapacity/16                          11,8 ns         11,8 ns     59080206
+vectorCapacity/32                          11,8 ns         11,8 ns     58748982
+vectorCapacity/64                          11,6 ns         11,6 ns     60135391
+vectorCapacity/128                         11,7 ns         11,7 ns     60227488
+vectorCapacity/256                         11,6 ns         11,6 ns     60318828
+vectorCapacity/512                         13,4 ns         13,1 ns     49273220
+vectorCapacity/1024                        11,8 ns         11,7 ns     58250327
+vectorCapacity/2048                        12,8 ns         12,6 ns     60168472
+vectorCapacity_BigO                       12,35 (1)       12,24 (1)  
+vectorCapacity_RMS                            6 %             5 %    
+vectorShrinkToFit/1                        15,3 ns         15,3 ns     45836116
+vectorShrinkToFit/2                        32,0 ns         31,7 ns     18657711
+vectorShrinkToFit/4                        71,3 ns         68,2 ns     12623758
+vectorShrinkToFit/8                         124 ns          123 ns      4957121
+vectorShrinkToFit/16                        217 ns          216 ns      2863782
+vectorShrinkToFit/32                        422 ns          420 ns      1680450
+vectorShrinkToFit/64                        909 ns          878 ns       758980
+vectorShrinkToFit/128                      1862 ns         1789 ns       430488
+vectorShrinkToFit/256                      3678 ns         3540 ns       193788
+vectorShrinkToFit/512                      6439 ns         6413 ns       107671
+vectorShrinkToFit/1024                    13873 ns        13645 ns        54919
+vectorShrinkToFit/2048                    28603 ns        28142 ns        23529
+vectorShrinkToFit_BigO                    13,83 N         13,61 N    
+vectorShrinkToFit_RMS                         5 %             4 %    
+vector_create/1                             331 ns          327 ns      2180719
+vector_create/2                             330 ns          328 ns      2136550
+vector_create/4                             386 ns          384 ns      1834790
+vector_create/8                             521 ns          517 ns      1379473
+vector_create/16                            725 ns          720 ns       959088
+vector_create/32                           1146 ns         1138 ns       615823
+vector_create/64                           1997 ns         1981 ns       353963
+vector_create/128                          4191 ns         4044 ns       197732
+vector_create/256                          8244 ns         7826 ns        99808
+vector_create/512                         14399 ns        14200 ns        49058
+vector_create/1024                        26365 ns        26273 ns        26737
+vector_create/2048                        52403 ns        52274 ns        13539
+vector_create_BigO                        25,84 N         25,74 N    
+vector_create_RMS                             7 %             6 %    
+vectorCreateAndClear/1                  363 ns          358 ns      2028121
+vectorCreateAndClear/2                  420 ns          410 ns      1707213
+vectorCreateAndClear/4                  432 ns          429 ns      1656946
+vectorCreateAndClear/8                  552 ns          550 ns      1200913
+vectorCreateAndClear/16                 758 ns          756 ns       926318
+vectorCreateAndClear/32                1161 ns         1158 ns       599983
+vectorCreateAndClear/64                1989 ns         1983 ns       350231
+vectorCreateAndClear/128               3606 ns         3594 ns       194988
+vectorCreateAndClear/256               6981 ns         6961 ns        99627
+vectorCreateAndClear/512              13499 ns        13458 ns        52243
+vectorCreateAndClear/1024             26335 ns        26255 ns        26257
+vectorCreateAndClear/2048             52627 ns        52450 ns        12879
+vectorCreateAndClear_BigO             25.77 N         25.68 N
+
+vectorCreateAndInsert/1                  937 ns          934 ns       750469
+vectorCreateAndInsert/2                  975 ns          973 ns       727969
+vectorCreateAndInsert/4                 1033 ns         1031 ns       657184
+vectorCreateAndInsert/8                 1219 ns         1217 ns       563929
+vectorCreateAndInsert/16                1513 ns         1510 ns       466800
+vectorCreateAndInsert/32                2121 ns         2120 ns       331284
+vectorCreateAndInsert/64                3386 ns         3378 ns       210012
+vectorCreateAndInsert/128               5795 ns         5787 ns       119338
+vectorCreateAndInsert/256              10962 ns        10941 ns        64437
+vectorCreateAndInsert/512              20365 ns        20339 ns        34121
+vectorCreateAndInsert/1024             39732 ns        39688 ns        17434
+vectorCreateAndInsert/2048             78719 ns        78625 ns         8820
+vectorCreateAndInsert_BigO             38.66 N         38.61 N
+vectorCreateAndInsert_RMS                  6 %             6 %
+
+vectorCreateAndErase/1                      399 ns          397 ns      1809856
+vectorCreateAndErase/2                      417 ns          416 ns      1697550
+vectorCreateAndErase/4                      461 ns          461 ns      1505198
+vectorCreateAndErase/8                      586 ns          585 ns      1195988
+vectorCreateAndErase/16                     819 ns          819 ns       885852
+vectorCreateAndErase/32                    1192 ns         1190 ns       598925
+vectorCreateAndErase/64                    1966 ns         1965 ns       343778
+vectorCreateAndErase/128                   3533 ns         3531 ns       198192
+vectorCreateAndErase/256                   6905 ns         6895 ns       102238
+vectorCreateAndErase/512                  12984 ns        12972 ns        53060
+vectorCreateAndErase/1024                 25932 ns        25877 ns        27644
+vectorCreateAndErase/2048                 50090 ns        50049 ns        10000
+vectorCreateAndErase_BigO                 24,71 N         24,68 N    
+vectorCreateAndErase_RMS                      5 %             5 %    
+vectorCreateAndPush_Back/1                  840 ns          839 ns       877237
+vectorCreateAndPush_Back/2                  849 ns          848 ns       812451
+vectorCreateAndPush_Back/4                  928 ns          927 ns       745959
+vectorCreateAndPush_Back/8                 1131 ns         1130 ns       622510
+vectorCreateAndPush_Back/16                1386 ns         1385 ns       488916
+vectorCreateAndPush_Back/32                2019 ns         2018 ns       348953
+vectorCreateAndPush_Back/64                3159 ns         3158 ns       222308
+vectorCreateAndPush_Back/128               5622 ns         5613 ns       111894
+vectorCreateAndPush_Back/256              10390 ns        10381 ns        67957
+vectorCreateAndPush_Back/512              19855 ns        19826 ns        35306
+vectorCreateAndPush_Back/1024             39193 ns        39165 ns        17366
+vectorCreateAndPush_Back/2048             77170 ns        77090 ns         8488
+vectorCreateAndPush_Back_BigO             37,91 N         37,88 N    
+vectorCreateAndPush_Back_RMS                  5 %             5 %    
+vectorCreateAndPopBack/1                    330 ns          330 ns      2119844
+vectorCreateAndPopBack/2                    367 ns          366 ns      1954548
+vectorCreateAndPopBack/4                    466 ns          457 ns      1721272
+vectorCreateAndPopBack/8                    599 ns          581 ns      1246483
+vectorCreateAndPopBack/16                   857 ns          829 ns       914949
+vectorCreateAndPopBack/32                  1270 ns         1261 ns       510781
+vectorCreateAndPopBack/64                  1954 ns         1952 ns       333568
+vectorCreateAndPopBack/128                 3492 ns         3488 ns       198480
+vectorCreateAndPopBack/256                 6656 ns         6653 ns       101570
+vectorCreateAndPopBack/512                13133 ns        13113 ns        54441
+vectorCreateAndPopBack/1024               25909 ns        25888 ns        27464
+vectorCreateAndPopBack/2048               51759 ns        51711 ns        13734
+vectorCreateAndPopBack_BigO               25,32 N         25,30 N    
+vectorCreateAndPopBack_RMS                    3 %             3 %    
+vectorCreateAndResize/1                     957 ns          956 ns       718067
+vectorCreateAndResize/2                     980 ns          979 ns       708158
+vectorCreateAndResize/4                    1000 ns          999 ns       707886
+vectorCreateAndResize/8                    1093 ns         1092 ns       658755
+vectorCreateAndResize/16                    749 ns          748 ns       913028
+vectorCreateAndResize/32                   1138 ns         1138 ns       605589
+vectorCreateAndResize/64                   1945 ns         1942 ns       357978
+vectorCreateAndResize/128                  3496 ns         3493 ns       200870
+vectorCreateAndResize/256                  6704 ns         6700 ns       104805
+vectorCreateAndResize/512                 13171 ns        13153 ns        54219
+vectorCreateAndResize/1024                25409 ns        25384 ns        26855
+vectorCreateAndResize/2048                50438 ns        50407 ns        13977
+vectorCreateAndResize_BigO                24,75 N         24,73 N    
+vectorCreateAndResize_RMS                     7 %             7 %    
+vectorCreateAndSwap/1                       712 ns          710 ns      1004809
+vectorCreateAndSwap/2                       766 ns          765 ns       939358
+vectorCreateAndSwap/4                       854 ns          852 ns       846402
+vectorCreateAndSwap/8                      1087 ns         1087 ns       615699
+vectorCreateAndSwap/16                     1502 ns         1501 ns       464943
+vectorCreateAndSwap/32                     2317 ns         2314 ns       309676
+vectorCreateAndSwap/64                     3839 ns         3838 ns       180414
+vectorCreateAndSwap/128                    6953 ns         6949 ns       100988
+vectorCreateAndSwap/256                   13432 ns        13412 ns        52875
+vectorCreateAndSwap/512                   26959 ns        26872 ns        26782
+vectorCreateAndSwap/1024                  52089 ns        51983 ns        13700
+vectorCreateAndSwap/2048                 101818 ns       101688 ns         6806
+vectorCreateAndSwap_BigO                  50,13 N         50,05 N    
+vectorCreateAndSwap_RMS                       4 %             4 %    
+medium_vectorAt/32                         7,89 ns         7,87 ns     88912599
+medium_vectorAt/64                         7,82 ns         7,81 ns     87669860
+medium_vectorAt/128                        7,73 ns         7,72 ns     91118545
+medium_vectorAt/256                        7,85 ns         7,84 ns     90408907
+medium_vectorAt/512                        7,81 ns         7,80 ns     90505928
+medium_vectorAt/1024                       7,77 ns         7,77 ns     90822986
+medium_vectorAt/2048                       7,75 ns         7,74 ns     90659483
+medium_vectorAt_BigO                       7,80 (1)        7,79 (1)  
+medium_vectorAt_RMS                           1 %             1 %    
+medium_vectorOperator/32                   5,30 ns         5,29 ns    135393900
+medium_vectorOperator/64                   5,84 ns         5,74 ns    130453419
+medium_vectorOperator/128                  5,86 ns         5,73 ns    119699042
+medium_vectorOperator/256                  5,56 ns         5,53 ns     94533276
+medium_vectorOperator/512                  5,64 ns         5,58 ns    120425964
+medium_vectorOperator/1024                 5,57 ns         5,51 ns    127555669
+medium_vectorOperator/2048                 5,52 ns         5,48 ns    127502231
+medium_vectorOperator_BigO                 5,61 (1)        5,55 (1)  
+medium_vectorOperator_RMS                     3 %             3 %    
+medium_vectorFront/32                      5,02 ns         5,01 ns    137486742
+medium_vectorFront/64                      5,28 ns         5,22 ns    130082509
+medium_vectorFront/128                     5,12 ns         5,10 ns    137754600
+medium_vectorFront/256                     4,94 ns         4,93 ns    142424637
+medium_vectorFront/512                     5,13 ns         5,11 ns    143265596
+medium_vectorFront/1024                    6,04 ns         5,86 ns    135127309
+medium_vectorFront/2048                    5,36 ns         5,31 ns    137249520
+medium_vectorFront_BigO                    5,27 (1)        5,22 (1)  
+medium_vectorFront_RMS                        6 %             5 %    
+medium_vectorBack/32                       5,28 ns         5,26 ns    131643284
+medium_vectorBack/64                       5,05 ns         5,04 ns    135882753
+medium_vectorBack/128                      5,02 ns         5,02 ns    138792505
+medium_vectorBack/256                      5,33 ns         5,30 ns    139986001
+medium_vectorBack/512                      5,30 ns         5,28 ns    131361657
+medium_vectorBack/1024                     5,19 ns         5,18 ns    133835535
+medium_vectorBack/2048                     5,48 ns         5,44 ns    135801032
+medium_vectorBack_BigO                     5,24 (1)        5,22 (1)  
+medium_vectorBack_RMS                         3 %             3 %    
+medium_vectorData/32                       7,13 ns         7,05 ns    102923014
+medium_vectorData/64                       6,97 ns         6,91 ns    102867052
+medium_vectorData/128                      6,88 ns         6,83 ns    102544570
+medium_vectorData/256                      6,59 ns         6,58 ns    102684465
+medium_vectorData/512                      7,11 ns         7,03 ns    105972296
+medium_vectorData/1024                     6,95 ns         6,90 ns     96695767
+medium_vectorData/2048                     6,55 ns         6,54 ns    103515076
+medium_vectorData_BigO                     6,88 (1)        6,83 (1)  
+medium_vectorData_RMS                         3 %             3 %    
+medium_vectorEmpty/32                      5,33 ns         5,33 ns    131720076
+medium_vectorEmpty/64                      6,03 ns         5,95 ns    132125330
+medium_vectorEmpty/128                     5,82 ns         5,76 ns    123563573
+medium_vectorEmpty/256                     5,86 ns         5,80 ns    125311040
+medium_vectorEmpty/512                     5,83 ns         5,77 ns    124617247
+medium_vectorEmpty/1024                    5,62 ns         5,59 ns    124570676
+medium_vectorEmpty/2048                    5,44 ns         5,43 ns    128546506
+medium_vectorEmpty_BigO                    5,71 (1)        5,66 (1)  
+medium_vectorEmpty_RMS                        4 %             4 %    
+medium_vector_size/32                      5,34 ns         5,33 ns    128626817
+medium_vector_size/64                      5,83 ns         5,77 ns    112576391
+medium_vector_size/128                     5,49 ns         5,48 ns    128480443
+medium_vector_size/256                     5,43 ns         5,42 ns    130196224
+medium_vector_size/512                     5,71 ns         5,65 ns    112783166
+medium_vector_size/1024                    5,69 ns         5,64 ns    124333925
+medium_vector_size/2048                    5,68 ns         5,64 ns    124995536
+medium_vector_size_BigO                    5,60 (1)        5,56 (1)  
+medium_vector_size_RMS                        3 %             3 %    
+medium_vectorMaxSize/32                    29,5 ns         29,4 ns     24168767
+medium_vectorMaxSize/64                    28,0 ns         28,0 ns     25068850
+medium_vectorMaxSize/128                   28,1 ns         28,1 ns     24959886
+medium_vectorMaxSize/256                   28,2 ns         28,1 ns     24535319
+medium_vectorMaxSize/512                   27,7 ns         27,7 ns     25329739
+medium_vectorMaxSize/1024                  28,0 ns         27,9 ns     25380619
+medium_vectorMaxSize/2048                  27,9 ns         27,8 ns     25258175
+medium_vectorMaxSize_BigO                 28,19 (1)       28,15 (1)  
+medium_vectorMaxSize_RMS                      2 %             2 %    
+medium_vectorReserve/32                     407 ns          407 ns      1758630
+medium_vectorReserve/64                     786 ns          785 ns       881168
+medium_vectorReserve/128                   1568 ns         1567 ns       444862
+medium_vectorReserve/256                   3080 ns         3078 ns       225459
+medium_vectorReserve/512                   6217 ns         6210 ns       112623
+medium_vectorReserve/1024                 12394 ns        12373 ns        57039
+medium_vectorReserve/2048                 25008 ns        24981 ns        27469
+medium_vectorReserve_BigO                 12,19 N         12,17 N    
+medium_vectorReserve_RMS                      1 %             1 %    
+medium_vectorCapacity/32                   12,2 ns         12,2 ns     56980521
+medium_vectorCapacity/64                   12,4 ns         12,3 ns     57279861
+medium_vectorCapacity/128                  12,3 ns         12,3 ns     57877548
+medium_vectorCapacity/256                  12,2 ns         12,2 ns     57055295
+medium_vectorCapacity/512                  12,2 ns         12,2 ns     57690564
+medium_vectorCapacity/1024                 12,4 ns         12,3 ns     57978697
+medium_vectorCapacity/2048                 12,1 ns         12,1 ns     56850022
+medium_vectorCapacity_BigO                12,25 (1)       12,24 (1)  
+medium_vectorCapacity_RMS                     1 %             1 %    
+medium_vectorShrinkToFit/32                 405 ns          404 ns      1722352
+medium_vectorShrinkToFit/64                 805 ns          803 ns       869533
+medium_vectorShrinkToFit/128               1606 ns         1602 ns       436023
+medium_vectorShrinkToFit/256               3236 ns         3231 ns       221971
+medium_vectorShrinkToFit/512               6422 ns         6411 ns       107230
+medium_vectorShrinkToFit/1024             13086 ns        13070 ns        54056
+medium_vectorShrinkToFit/2048             25694 ns        25650 ns        25321
+medium_vectorShrinkToFit_BigO             12,59 N         12,57 N    
+medium_vectorShrinkToFit_RMS                  1 %             1 %    
+medium_vector_create/32                    1632 ns         1628 ns       439577
+medium_vector_create/64                    3363 ns         3360 ns       208503
+medium_vector_create/128                   5906 ns         5893 ns       121137
+medium_vector_create/256                  11938 ns        11916 ns        58793
+medium_vector_create/512                  27052 ns        27008 ns        26838
+medium_vector_create/1024                 51235 ns        51186 ns        13701
+medium_vector_create/2048                100723 ns       100632 ns         6910
+medium_vector_create_BigO                 49,48 N         49,43 N    
+medium_vector_create_RMS                      3 %             3 %    
+medium_vectorCreateAndClear/32         1780 ns         1775 ns       395534
+medium_vectorCreateAndClear/64         3678 ns         3653 ns       195953
+medium_vectorCreateAndClear/128        6868 ns         6810 ns       109794
+medium_vectorCreateAndClear/256       14469 ns        14185 ns        43271
+medium_vectorCreateAndClear/512       26686 ns        26592 ns        26343
+medium_vectorCreateAndClear/1024      53633 ns        53348 ns        11009
+medium_vectorCreateAndClear/2048     107393 ns       107056 ns         6338
+medium_vectorCreateAndClear_BigO      52.47 N         52.27 N
+medium_vectorCreateAndClear_RMS           1 %             1 %
+
+medium_vectorCreateAndInsert/32        24624 ns        24586 ns        28846
+medium_vectorCreateAndInsert/64        27789 ns        27749 ns        25054
+medium_vectorCreateAndInsert/128       32837 ns        32804 ns        21146
+medium_vectorCreateAndInsert/256       46956 ns        46851 ns        14997
+medium_vectorCreateAndInsert/512       74966 ns        74869 ns         9205
+medium_vectorCreateAndInsert/1024     129755 ns       129615 ns         5459
+medium_vectorCreateAndInsert/2048     241491 ns       241098 ns         2884
+medium_vectorCreateAndInsert_BigO     122.43 N        122.24 N
+medium_vectorCreateAndInsert_RMS          18 %            18 %
+
+medium_vectorCreateAndErase/32             2076 ns         2073 ns       327481
+medium_vectorCreateAndErase/64             4632 ns         4626 ns       151951
+medium_vectorCreateAndErase/128            8084 ns         8076 ns        86342
+medium_vectorCreateAndErase/256           16843 ns        16813 ns        41517
+medium_vectorCreateAndErase/512           38621 ns        38577 ns        18242
+medium_vectorCreateAndErase/1024          76051 ns        75997 ns         9065
+medium_vectorCreateAndErase/2048         152750 ns       152560 ns         4599
+medium_vectorCreateAndErase_BigO          74,43 N         74,34 N    
+medium_vectorCreateAndErase_RMS               2 %             2 %    
+medium_vectorCreateAndPush_Back/32        23777 ns        23752 ns        28990
+medium_vectorCreateAndPush_Back/64        26702 ns        26678 ns        26082
+medium_vectorCreateAndPush_Back/128       31930 ns        31880 ns        22126
+medium_vectorCreateAndPush_Back/256       44812 ns        44771 ns        15579
+medium_vectorCreateAndPush_Back/512       72404 ns        72363 ns         9560
+medium_vectorCreateAndPush_Back/1024     123922 ns       123778 ns         5755
+medium_vectorCreateAndPush_Back/2048     234564 ns       234402 ns         2923
+medium_vectorCreateAndPush_Back_BigO     118,45 N        118,36 N    
+medium_vectorCreateAndPush_Back_RMS          18 %            18 %    
+medium_vectorCreateAndPopBack/32           1662 ns         1660 ns       414665
+medium_vectorCreateAndPopBack/64           3443 ns         3437 ns       205534
+medium_vectorCreateAndPopBack/128          5917 ns         5906 ns       117853
+medium_vectorCreateAndPopBack/256         11923 ns        11904 ns        59612
+medium_vectorCreateAndPopBack/512         25646 ns        25635 ns        27326
+medium_vectorCreateAndPopBack/1024        50919 ns        50875 ns        13782
+medium_vectorCreateAndPopBack/2048       100346 ns       100229 ns         6943
+medium_vectorCreateAndPopBack_BigO        49,15 N         49,10 N    
+medium_vectorCreateAndPopBack_RMS             2 %             2 %    
+medium_vectorCreateAndResize/32            1692 ns         1690 ns       407731
+medium_vectorCreateAndResize/64            3472 ns         3466 ns       201893
+medium_vectorCreateAndResize/128           5897 ns         5892 ns       119674
+medium_vectorCreateAndResize/256          11812 ns        11801 ns        59351
+medium_vectorCreateAndResize/512          26274 ns        26232 ns        27099
+medium_vectorCreateAndResize/1024         50729 ns        50678 ns        12948
+medium_vectorCreateAndResize/2048        100425 ns       100298 ns         6784
+medium_vectorCreateAndResize_BigO         49,20 N         49,14 N    
+medium_vectorCreateAndResize_RMS              2 %             2 %    
+medium_vectorCreateAndSwap/32              3350 ns         3346 ns       209366
+medium_vectorCreateAndSwap/64              6823 ns         6812 ns       104565
+medium_vectorCreateAndSwap/128            12184 ns        12161 ns        59489
+medium_vectorCreateAndSwap/256            25939 ns        25919 ns        26950
+medium_vectorCreateAndSwap/512            52272 ns        52212 ns        13192
+medium_vectorCreateAndSwap/1024          107197 ns       105464 ns         6535
+medium_vectorCreateAndSwap/2048          206168 ns       205975 ns         3366
+medium_vectorCreateAndSwap_BigO          101,48 N        101,09 N    
+medium_vectorCreateAndSwap_RMS                2 %             2 %    
+large_vectorAt/128                         7,74 ns         7,74 ns     89627534
+large_vectorAt/256                         8,33 ns         8,27 ns     78277886
+large_vectorAt/512                         8,18 ns         8,12 ns     85725483
+large_vectorAt/1024                        8,04 ns         8,01 ns     85721283
+large_vectorAt/2048                        7,73 ns         7,73 ns     83794201
+large_vectorAt_BigO                        8,01 (1)        7,97 (1)  
+large_vectorAt_RMS                            3 %             3 %    
+large_vectorOperator/128                   5,36 ns         5,35 ns    127984788
+large_vectorOperator/256                   5,29 ns         5,28 ns    127739557
+large_vectorOperator/512                   5,35 ns         5,35 ns    129788260
+large_vectorOperator/1024                  5,33 ns         5,32 ns    129754578
+large_vectorOperator/2048                  5,66 ns         5,65 ns    128659915
+large_vectorOperator_BigO                  5,40 (1)        5,39 (1)  
+large_vectorOperator_RMS                      2 %             2 %    
+large_vectorFront/128                      5,32 ns         5,31 ns    138974369
+large_vectorFront/256                      4,92 ns         4,92 ns    142342676
+large_vectorFront/512                      4,95 ns         4,94 ns    136377805
+large_vectorFront/1024                     4,92 ns         4,91 ns    137865837
+large_vectorFront/2048                     4,94 ns         4,94 ns    136276915
+large_vectorFront_BigO                     5,01 (1)        5,01 (1)  
+large_vectorFront_RMS                         3 %             3 %    
+large_vectorBack/128                       5,11 ns         5,11 ns    135656286
+large_vectorBack/256                       5,10 ns         5,10 ns    135869565
+large_vectorBack/512                       5,10 ns         5,10 ns    136844369
+large_vectorBack/1024                      5,09 ns         5,09 ns    136189420
+large_vectorBack/2048                      5,05 ns         5,04 ns    138080679
+large_vectorBack_BigO                      5,09 (1)        5,09 (1)  
+large_vectorBack_RMS                          0 %             0 %    
+large_vectorData/128                       6,59 ns         6,57 ns    108726041
+large_vectorData/256                       6,46 ns         6,45 ns    107788488
+large_vectorData/512                       6,55 ns         6,54 ns    106691053
+large_vectorData/1024                      6,61 ns         6,60 ns    105941823
+large_vectorData/2048                      6,58 ns         6,57 ns    106163553
+large_vectorData_BigO                      6,56 (1)        6,55 (1)  
+large_vectorData_RMS                          1 %             1 %    
+large_vectorEmpty/128                      5,34 ns         5,34 ns    128759312
+large_vectorEmpty/256                      5,38 ns         5,37 ns    125008929
+large_vectorEmpty/512                      5,34 ns         5,34 ns    129225203
+large_vectorEmpty/1024                     5,32 ns         5,32 ns    127242652
+large_vectorEmpty/2048                     5,59 ns         5,57 ns    112730494
+large_vectorEmpty_BigO                     5,39 (1)        5,39 (1)  
+large_vectorEmpty_RMS                         2 %             2 %    
+large_vector_size/128                      5,43 ns         5,42 ns    127381581
+large_vector_size/256                      5,46 ns         5,45 ns    129413940
+large_vector_size/512                      5,72 ns         5,67 ns    114175733
+large_vector_size/1024                     5,71 ns         5,66 ns    110894603
+large_vector_size/2048                     5,40 ns         5,39 ns    131868960
+large_vector_size_BigO                     5,54 (1)        5,52 (1)  
+large_vector_size_RMS                         3 %             2 %    
+large_vectorMaxSize/128                    28,5 ns         28,4 ns     25315815
+large_vectorMaxSize/256                    28,0 ns         27,9 ns     24561317
+large_vectorMaxSize/512                    27,8 ns         27,7 ns     24561834
+large_vectorMaxSize/1024                   28,1 ns         28,1 ns     24134186
+large_vectorMaxSize/2048                   27,9 ns         27,9 ns     25207421
+large_vectorMaxSize_BigO                  28,05 (1)       28,03 (1)  
+large_vectorMaxSize_RMS                       1 %             1 %    
+large_vectorReserve/128                    1497 ns         1496 ns       452004
+large_vectorReserve/256                    2996 ns         2994 ns       235294
+large_vectorReserve/512                    5916 ns         5913 ns       114960
+large_vectorReserve/1024                  11980 ns        11968 ns        58816
+large_vectorReserve/2048                  24118 ns        24085 ns        29138
+large_vectorReserve_BigO                  11,75 N         11,74 N    
+large_vectorReserve_RMS                       1 %             1 %    
+large_vectorCapacity/128                   11,6 ns         11,6 ns     59295401
+large_vectorCapacity/256                   12,0 ns         12,0 ns     57639261
+large_vectorCapacity/512                   11,8 ns         11,8 ns     58912641
+large_vectorCapacity/1024                  11,7 ns         11,7 ns     59027895
+large_vectorCapacity/2048                  11,7 ns         11,7 ns     58591134
+large_vectorCapacity_BigO                 11,75 (1)       11,74 (1)  
+large_vectorCapacity_RMS                      1 %             1 %    
+large_vectorShrinkToFit/128                1585 ns         1584 ns       443583
+large_vectorShrinkToFit/256                3157 ns         3155 ns       222617
+large_vectorShrinkToFit/512                6322 ns         6317 ns       110756
+large_vectorShrinkToFit/1024              12701 ns        12688 ns        55399
+large_vectorShrinkToFit/2048              25209 ns        25195 ns        27722
+large_vectorShrinkToFit_BigO              12,33 N         12,32 N    
+large_vectorShrinkToFit_RMS                   0 %             0 %    
+large_vector_create/128                20616735 ns     20609294 ns           34
+large_vector_create/256               155743748 ns    155706750 ns            4
+large_vector_create/512               305326905 ns    305246000 ns            2
+large_vector_create/1024              639084437 ns    638697000 ns            1
+large_vector_create/2048             1255882420 ns   1255172000 ns            1
+large_vector_create_BigO              613091,23 N     612750,52 N    
+large_vector_create_RMS                       6 %             6 %
+
+large_vectorCreateAndClear/128     23933764 ns     23889690 ns           29
+large_vectorCreateAndClear/256    167849740 ns    167183250 ns            4
+large_vectorCreateAndClear/512    325503865 ns    324739500 ns            2
+large_vectorCreateAndClear/1024   752712597 ns    712460000 ns            1
+large_vectorCreateAndClear/2048  1517291444 ns   1423894000 ns            1
+large_vectorCreateAndClear_BigO   732221.70 N     690505.82 N
+large_vectorCreateAndClear_RMS            7 %             6 %
+
+large_vectorCreateAndInsert/128     94942909 ns     94791286 ns            7
+large_vectorCreateAndInsert/256    307068343 ns    306871000 ns            2
+large_vectorCreateAndInsert/512    631495327 ns    630542000 ns            1
+large_vectorCreateAndInsert/1024  1284258451 ns   1281941000 ns            1
+large_vectorCreateAndInsert/2048  2741524924 ns   2634045000 ns            1
+large_vectorCreateAndInsert_BigO  1314459.48 N    1274536.04 N
+large_vectorCreateAndInsert_RMS            5 %             4 %
+
+large_vectorCreateAndErase/128         35892755 ns     35883737 ns           19
+large_vectorCreateAndErase/256        178232883 ns    178100000 ns            4
+large_vectorCreateAndErase/512        349928275 ns    349801000 ns            2
+large_vectorCreateAndErase/1024       718212770 ns    717754000 ns            1
+large_vectorCreateAndErase/2048      1478188080 ns   1476346000 ns            1
+large_vectorCreateAndErase_BigO       714552,40 N     713775,10 N    
+large_vectorCreateAndErase_RMS                5 %             5 %    
+large_vectorCreateAndPush_Back/128    112307690 ns    112219000 ns            6
+large_vectorCreateAndPush_Back/256    320817687 ns    320523500 ns            2
+large_vectorCreateAndPush_Back/512    640092007 ns    639449000 ns            1
+large_vectorCreateAndPush_Back/1024  1307079859 ns   1305588000 ns            1
+large_vectorCreateAndPush_Back/2048  2417141166 ns   2414630000 ns            1
+large_vectorCreateAndPush_Back_BigO  1201548,95 N    1200280,56 N    
+large_vectorCreateAndPush_Back_RMS            5 %             5 %    
+large_vectorCreateAndPopBack/128       17695409 ns     17691175 ns           40
+large_vectorCreateAndPopBack/256      126932237 ns    126896600 ns            5
+large_vectorCreateAndPopBack/512      260907076 ns    260461667 ns            3
+large_vectorCreateAndPopBack/1024     530292416 ns    529883000 ns            1
+large_vectorCreateAndPopBack/2048    1081823836 ns   1080755000 ns            1
+large_vectorCreateAndPopBack_BigO     523889,04 N     523379,65 N    
+large_vectorCreateAndPopBack_RMS              6 %             6 %    
+large_vectorCreateAndResize/128     20046570 ns     20004571 ns           35
+large_vectorCreateAndResize/256    133924764 ns    133557800 ns            5
+large_vectorCreateAndResize/512    345918794 ns    329869333 ns            3
+large_vectorCreateAndResize/1024   678186342 ns    650792000 ns            1
+large_vectorCreateAndResize/2048  1258184826 ns   1237720000 ns            1
+large_vectorCreateAndResize_BigO   623809.09 N     609797.78 N
+large_vectorCreateAndResize_RMS            8 %             7 %
+large_vectorCreateAndSwap/128          39922422 ns     39906278 ns           18
+large_vectorCreateAndSwap/256         276727913 ns    276658333 ns            3
+large_vectorCreateAndSwap/512         639137815 ns    616767000 ns            1
+large_vectorCreateAndSwap/1024       1414578986 ns   1374250000 ns            1
+large_vectorCreateAndSwap/2048       2419530486 ns   2389599000 ns            1
+large_vectorCreateAndSwap_BigO       1218361,65 N    1197944,35 N    
+large_vectorCreateAndSwap_RMS                10 %             9 %    

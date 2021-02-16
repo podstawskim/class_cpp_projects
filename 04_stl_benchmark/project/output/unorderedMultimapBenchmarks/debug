@@ -1,0 +1,371 @@
+---------------------------------------------------------------------------------------------
+Benchmark                                                   Time             CPU   Iterations
+---------------------------------------------------------------------------------------------
+unordered_multimapEmpty/1                                9,76 ns         9,75 ns     70301594
+unordered_multimapEmpty/2                                9,71 ns         9,70 ns     72973677
+unordered_multimapEmpty/4                                9,71 ns         9,70 ns     70294534
+unordered_multimapEmpty/8                                9,83 ns         9,81 ns     69680168
+unordered_multimapEmpty/16                               9,70 ns         9,70 ns     71065268
+unordered_multimapEmpty/32                               9,68 ns         9,68 ns     70773555
+unordered_multimapEmpty/64                               9,82 ns         9,81 ns     71230869
+unordered_multimapEmpty/128                              9,79 ns         9,78 ns     69873529
+unordered_multimapEmpty/256                              9,73 ns         9,73 ns     68269371
+unordered_multimapEmpty/512                              9,72 ns         9,71 ns     70897563
+unordered_multimapEmpty/1024                             9,81 ns         9,80 ns     72170901
+unordered_multimapEmpty/2048                             9,78 ns         9,77 ns     70742799
+unordered_multimapEmpty_BigO                             9,75 (1)        9,74 (1)
+unordered_multimapEmpty_RMS                                 0 %             0 %
+unordered_multimapSize/1                                 9,57 ns         9,57 ns     72621641
+unordered_multimapSize/2                                 9,54 ns         9,53 ns     72222280
+unordered_multimapSize/4                                 9,64 ns         9,64 ns     71617114
+unordered_multimapSize/8                                 9,59 ns         9,58 ns     72347682
+unordered_multimapSize/16                                9,53 ns         9,52 ns     72651790
+unordered_multimapSize/32                                9,61 ns         9,60 ns     71752188
+unordered_multimapSize/64                                9,61 ns         9,61 ns     69889574
+unordered_multimapSize/128                               9,55 ns         9,54 ns     72611848
+unordered_multimapSize/256                               9,64 ns         9,63 ns     72362640
+unordered_multimapSize/512                               9,72 ns         9,72 ns     71411812
+unordered_multimapSize/1024                              9,55 ns         9,55 ns     72797612
+unordered_multimapSize/2048                              9,65 ns         9,64 ns     72288659
+unordered_multimapSize_BigO                              9,60 (1)        9,59 (1)
+unordered_multimapSize_RMS                                  1 %             1 %
+unordered_multimapMaxSize/1                              27,7 ns         27,7 ns     25173336
+unordered_multimapMaxSize/2                              28,2 ns         28,2 ns     24665170
+unordered_multimapMaxSize/4                              27,8 ns         27,8 ns     25242964
+unordered_multimapMaxSize/8                              27,6 ns         27,6 ns     25174785
+unordered_multimapMaxSize/16                             27,7 ns         27,7 ns     24645024
+unordered_multimapMaxSize/32                             27,8 ns         27,7 ns     24873677
+unordered_multimapMaxSize/64                             27,7 ns         27,7 ns     25173065
+unordered_multimapMaxSize/128                            27,8 ns         27,7 ns     24219526
+unordered_multimapMaxSize/256                            28,1 ns         28,0 ns     25184476
+unordered_multimapMaxSize/512                            28,0 ns         28,0 ns     25268113
+unordered_multimapMaxSize/1024                           27,8 ns         27,8 ns     24884200
+unordered_multimapMaxSize/2048                           27,7 ns         27,6 ns     25280797
+unordered_multimapMaxSize_BigO                          27,83 (1)       27,81 (1)
+unordered_multimapMaxSize_RMS                               1 %             1 %
+unordered_multimapCreate/1                                119 ns          118 ns      5805900
+unordered_multimapCreate/2                                120 ns          120 ns      5838734
+unordered_multimapCreate/4                                119 ns          119 ns      5761080
+unordered_multimapCreate/8                                119 ns          119 ns      5859947
+unordered_multimapCreate/16                               120 ns          120 ns      5761317
+unordered_multimapCreate/32                               119 ns          119 ns      5765065
+unordered_multimapCreate/64                               120 ns          120 ns      5645526
+unordered_multimapCreate/128                              119 ns          119 ns      5779583
+unordered_multimapCreate/256                              120 ns          120 ns      5750290
+unordered_multimapCreate/512                              120 ns          120 ns      5784694
+unordered_multimapCreate/1024                             120 ns          120 ns      5869726
+unordered_multimapCreate/2048                             120 ns          120 ns      5760321
+unordered_multimapCreate_BigO                          119,51 (1)      119,41 (1)
+unordered_multimapCreate_RMS                                0 %             0 %
+unordered_multimapCreateAndClear/1                        938 ns          936 ns       748159
+unordered_multimapCreateAndClear/2                       1496 ns         1495 ns       464022
+unordered_multimapCreateAndClear/4                       2579 ns         2563 ns       273830
+unordered_multimapCreateAndClear/8                       4738 ns         4728 ns       150837
+unordered_multimapCreateAndClear/16                      8896 ns         8889 ns        77208
+unordered_multimapCreateAndClear/32                     17445 ns        17428 ns        39966
+unordered_multimapCreateAndClear/64                     39422 ns        38289 ns        17025
+unordered_multimapCreateAndClear/128                    69460 ns        69186 ns         9870
+unordered_multimapCreateAndClear/256                   135823 ns       135729 ns         5081
+unordered_multimapCreateAndClear/512                   274102 ns       273676 ns         2590
+unordered_multimapCreateAndClear/1024                  545148 ns       544440 ns         1249
+unordered_multimapCreateAndClear/2048                 1082319 ns      1081139 ns          619
+unordered_multimapCreateAndClear_BigO                  529,66 N        529,04 N
+unordered_multimapCreateAndClear_RMS                        1 %             1 %
+unordered_multimapCreateInsertAndErase/1                  696 ns          696 ns       984778
+unordered_multimapCreateInsertAndErase/2                  747 ns          746 ns       944861
+unordered_multimapCreateInsertAndErase/4                  745 ns          743 ns       927545
+unordered_multimapCreateInsertAndErase/8                  737 ns          737 ns       933532
+unordered_multimapCreateInsertAndErase/16                 750 ns          748 ns       945946
+unordered_multimapCreateInsertAndErase/32                 812 ns          795 ns       820787
+unordered_multimapCreateInsertAndErase/64                 738 ns          737 ns       923215
+unordered_multimapCreateInsertAndErase/128                756 ns          753 ns       930678
+unordered_multimapCreateInsertAndErase/256                747 ns          746 ns       931000
+unordered_multimapCreateInsertAndErase/512                745 ns          744 ns       930554
+unordered_multimapCreateInsertAndErase/1024               734 ns          734 ns       941240
+unordered_multimapCreateInsertAndErase/2048               763 ns          758 ns       943180
+unordered_multimapCreateInsertAndErase_BigO            747,46 (1)      744,71 (1)
+unordered_multimapCreateInsertAndErase_RMS                  3 %             3 %
+unordered_multimapSwap/1                                  258 ns          258 ns      2691190
+unordered_multimapSwap/2                                  270 ns          268 ns      2671837
+unordered_multimapSwap/4                                  282 ns          281 ns      2407674
+unordered_multimapSwap/8                                  278 ns          278 ns      2561738
+unordered_multimapSwap/16                                 280 ns          280 ns      2481821
+unordered_multimapSwap/32                                 282 ns          280 ns      2539858
+unordered_multimapSwap/64                                 309 ns          302 ns      2505261
+unordered_multimapSwap/128                                281 ns          280 ns      2674430
+unordered_multimapSwap/256                                276 ns          276 ns      2511328
+unordered_multimapSwap/512                                276 ns          276 ns      2547901
+unordered_multimapSwap/1024                               262 ns          262 ns      2529514
+unordered_multimapSwap/2048                               259 ns          259 ns      2519581
+unordered_multimapSwap_BigO                            276,18 (1)      274,99 (1)
+unordered_multimapSwap_RMS                                  5 %             4 %
+unordered_multimapCount/1                 1074 ns         1054 ns       684556
+unordered_multimapCount/2                 2167 ns         2132 ns       319272
+unordered_multimapCount/4                 3976 ns         3970 ns       176542
+unordered_multimapCount/8                 7689 ns         7687 ns        87723
+unordered_multimapCount/16               15874 ns        15860 ns        44001
+unordered_multimapCount/32               30840 ns        30835 ns        22176
+unordered_multimapCount/64               62832 ns        62813 ns        11222
+unordered_multimapCount/128             126311 ns       126211 ns         5694
+unordered_multimapCount/256             248446 ns       248367 ns         2747
+unordered_multimapCount/512             506603 ns       506503 ns         1399
+unordered_multimapCount/1024           1000019 ns       999609 ns          678
+unordered_multimapCount/2048           2061441 ns      2059000 ns          341
+unordered_multimapCount_BigO            999,63 N        998,65 N
+unordered_multimapCount_RMS                  2 %             2 %
+
+unordered_multimapFind/1                                  184 ns          178 ns      4324698
+unordered_multimapFind/2                                  191 ns          183 ns      3609531
+unordered_multimapFind/4                                  195 ns          192 ns      3575131
+unordered_multimapFind/8                                  209 ns          200 ns      3308519
+unordered_multimapFind/16                                 240 ns          222 ns      3650092
+unordered_multimapFind/32                                 210 ns          202 ns      3191218
+unordered_multimapFind/64                                 205 ns          199 ns      3519339
+unordered_multimapFind/128                                195 ns          192 ns      3664173
+unordered_multimapFind/256                                196 ns          196 ns      3554743
+unordered_multimapFind/512                                187 ns          186 ns      3804327
+unordered_multimapFind/1024                               216 ns          208 ns      3231018
+unordered_multimapFind/2048                               227 ns          217 ns      3183497
+unordered_multimapFind_BigO                            204,56 (1)      197,98 (1)
+unordered_multimapFind_RMS                                  8 %             6 %
+unordered_multimapEqualRange/1                 1115 ns         1095 ns       673297
+unordered_multimapEqualRange/2                 2126 ns         2109 ns       333529
+unordered_multimapEqualRange/4                 4013 ns         4011 ns       173593
+unordered_multimapEqualRange/8                 8125 ns         8116 ns        85254
+unordered_multimapEqualRange/16               15880 ns        15879 ns        42816
+unordered_multimapEqualRange/32               31765 ns        31754 ns        21560
+unordered_multimapEqualRange/64               65179 ns        65132 ns        10610
+unordered_multimapEqualRange/128             130010 ns       129946 ns         5368
+unordered_multimapEqualRange/256             260232 ns       260171 ns         2661
+unordered_multimapEqualRange/512             522088 ns       521790 ns         1317
+unordered_multimapEqualRange/1024           1032365 ns      1031151 ns          675
+unordered_multimapEqualRange/2048           2028570 ns      2028297 ns          337
+unordered_multimapEqualRange_BigO            995,59 N        995,24 N
+unordered_multimapEqualRange_RMS                  2 %             2 %
+
+unordered_multimapRehash/1                                987 ns          979 ns       710314
+unordered_multimapRehash/2                               1632 ns         1622 ns       435643
+unordered_multimapRehash/4                               5947 ns         5719 ns       100000
+unordered_multimapRehash/8                              11867 ns        11326 ns        59053
+unordered_multimapRehash/16                             18381 ns        18361 ns        37644
+unordered_multimapRehash/32                             43557 ns        43493 ns        16201
+unordered_multimapRehash/64                             99689 ns        99613 ns         6898
+unordered_multimapRehash/128                           291490 ns       284068 ns         2702
+unordered_multimapRehash/256                           717328 ns       714649 ns          966
+unordered_multimapRehash/512                          2266940 ns      2215254 ns          339
+unordered_multimapRehash/1024                         5809303 ns      5790941 ns          119
+unordered_multimapRehash/2048                        17209616 ns     17105762 ns           42
+unordered_multimapRehash_BigO                            4,21 N^2        4,18 N^2
+unordered_multimapRehash_RMS                               25 %            25 %
+unordered_multimapReserve/1                              1066 ns         1041 ns       720409
+unordered_multimapReserve/2                              1768 ns         1741 ns       437060
+unordered_multimapReserve/4                              6487 ns         5978 ns       126094
+unordered_multimapReserve/8                             15123 ns        13971 ns        51136
+unordered_multimapReserve/16                            24367 ns        23518 ns        29999
+unordered_multimapReserve/32                            55177 ns        53925 ns        13266
+unordered_multimapReserve/64                           115448 ns       113847 ns         5707
+unordered_multimapReserve/128                          313007 ns       303631 ns         2325
+unordered_multimapReserve/256                          754334 ns       748251 ns          930
+unordered_multimapReserve/512                         2741444 ns      2605147 ns          334
+unordered_multimapReserve/1024                        7211764 ns      6986350 ns          100
+unordered_multimapReserve/2048                       22003555 ns     20788054 ns           37
+unordered_multimapReserve_BigO                           5,36 N^2        5,08 N^2
+unordered_multimapReserve_RMS                              23 %            24 %
+medium_unordered_multimapEmpty/32                        11,5 ns         11,1 ns     58376629
+medium_unordered_multimapEmpty/64                        10,1 ns        10,00 ns     60530594
+medium_unordered_multimapEmpty/128                       10,3 ns         10,2 ns     69646197
+medium_unordered_multimapEmpty/256                       10,0 ns        10,00 ns     70059551
+medium_unordered_multimapEmpty/512                       10,3 ns         10,2 ns     69782279
+medium_unordered_multimapEmpty/1024                      10,3 ns         10,2 ns     70894691
+medium_unordered_multimapEmpty/2048                      10,0 ns         9,98 ns     70661391
+medium_unordered_multimapEmpty_BigO                     10,35 (1)       10,22 (1)
+medium_unordered_multimapEmpty_RMS                          5 %             4 %
+medium_unordered_multimapSize/32                         9,65 ns         9,61 ns     70000000
+medium_unordered_multimapSize/64                         9,67 ns         9,62 ns     72987373
+medium_unordered_multimapSize/128                        10,0 ns         9,95 ns     71528565
+medium_unordered_multimapSize/256                        9,78 ns         9,70 ns     72069846
+medium_unordered_multimapSize/512                        9,74 ns         9,66 ns     72913629
+medium_unordered_multimapSize/1024                       11,2 ns         10,7 ns     72428529
+medium_unordered_multimapSize/2048                       10,9 ns         10,5 ns     67015787
+medium_unordered_multimapSize_BigO                      10,14 (1)        9,97 (1)
+medium_unordered_multimapSize_RMS                           6 %             4 %
+medium_unordered_multimapMaxSize/32                      30,2 ns         30,0 ns     23566564
+medium_unordered_multimapMaxSize/64                      30,3 ns         30,0 ns     23235280
+medium_unordered_multimapMaxSize/128                     30,6 ns         30,3 ns     23147995
+medium_unordered_multimapMaxSize/256                     29,8 ns         29,6 ns     23473864
+medium_unordered_multimapMaxSize/512                     29,8 ns         29,6 ns     23654083
+medium_unordered_multimapMaxSize/1024                    29,8 ns         29,7 ns     23280100
+medium_unordered_multimapMaxSize/2048                    29,8 ns         29,6 ns     23592298
+medium_unordered_multimapMaxSize_BigO                   30,06 (1)       29,84 (1)
+medium_unordered_multimapMaxSize_RMS                        1 %             1 %
+medium_unordered_multimapCreate/32                        126 ns          125 ns      5587038
+medium_unordered_multimapCreate/64                        125 ns          125 ns      5561868
+medium_unordered_multimapCreate/128                       126 ns          125 ns      5602241
+medium_unordered_multimapCreate/256                       125 ns          125 ns      5612842
+medium_unordered_multimapCreate/512                       129 ns          128 ns      5626693
+medium_unordered_multimapCreate/1024                      125 ns          125 ns      5611942
+medium_unordered_multimapCreate/2048                      125 ns          125 ns      5587127
+medium_unordered_multimapCreate_BigO                   125,90 (1)      125,32 (1)
+medium_unordered_multimapCreate_RMS                         1 %             1 %
+medium_unordered_multimapCreateAndClear/32             749079 ns       746196 ns          932
+medium_unordered_multimapCreateAndClear/64            1505585 ns      1500019 ns          467
+medium_unordered_multimapCreateAndClear/128           3025922 ns      3012030 ns          235
+medium_unordered_multimapCreateAndClear/256           5994928 ns      5972393 ns          117
+medium_unordered_multimapCreateAndClear/512          12129163 ns     12055508 ns           59
+medium_unordered_multimapCreateAndClear/1024         24635373 ns     24435966 ns           29
+medium_unordered_multimapCreateAndClear/2048         49046761 ns     48742429 ns           14
+medium_unordered_multimapCreateAndClear_BigO         23949,45 N      23793,31 N
+medium_unordered_multimapCreateAndClear_RMS                 1 %             1 %
+medium_unordered_multimapCreateInsertAndErase/32        25437 ns        25286 ns        27714
+medium_unordered_multimapCreateInsertAndErase/64        25117 ns        25015 ns        27782
+medium_unordered_multimapCreateInsertAndErase/128       25576 ns        25433 ns        27597
+medium_unordered_multimapCreateInsertAndErase/256       25284 ns        25152 ns        27953
+medium_unordered_multimapCreateInsertAndErase/512       25214 ns        25092 ns        28005
+medium_unordered_multimapCreateInsertAndErase/1024      25511 ns        25354 ns        27720
+medium_unordered_multimapCreateInsertAndErase/2048      25359 ns        25230 ns        27774
+medium_unordered_multimapCreateInsertAndErase_BigO   25356,74 (1)    25223,29 (1)
+medium_unordered_multimapCreateInsertAndErase_RMS           1 %             1 %
+medium_unordered_multimapSwap/32                          286 ns          285 ns      2454754
+medium_unordered_multimapSwap/64                          288 ns          287 ns      2453833
+medium_unordered_multimapSwap/128                         287 ns          285 ns      2454366
+medium_unordered_multimapSwap/256                         287 ns          285 ns      2447852
+medium_unordered_multimapSwap/512                         289 ns          287 ns      2434740
+medium_unordered_multimapSwap/1024                        290 ns          289 ns      2424788
+medium_unordered_multimapSwap/2048                        288 ns          287 ns      2451118
+medium_unordered_multimapSwap_BigO                     287,88 (1)      286,54 (1)
+medium_unordered_multimapSwap_RMS                           0 %             0 %
+medium_unordered_multimapCount/32       798284 ns       789010 ns          912
+medium_unordered_multimapCount/64      1814447 ns      1745337 ns          418
+medium_unordered_multimapCount/128     2941634 ns      2940883 ns          231
+medium_unordered_multimapCount/256     5966930 ns      5965354 ns          113
+medium_unordered_multimapCount/512    11826010 ns     11824105 ns           57
+medium_unordered_multimapCount/1024   24044590 ns     24032345 ns           29
+medium_unordered_multimapCount/2048   47481308 ns     47453533 ns           15
+medium_unordered_multimapCount_BigO   23240,80 N      23227,28 N
+medium_unordered_multimapCount_RMS           1 %             1 %
+
+medium_unordered_multimapFind/32                        22301 ns        22189 ns        31607
+medium_unordered_multimapFind/64                        22203 ns        22120 ns        31704
+medium_unordered_multimapFind/128                       22307 ns        22219 ns        31454
+medium_unordered_multimapFind/256                       22271 ns        22171 ns        31261
+medium_unordered_multimapFind/512                       22419 ns        22306 ns        31544
+medium_unordered_multimapFind/1024                      22419 ns        22309 ns        31245
+medium_unordered_multimapFind/2048                      22489 ns        22359 ns        31305
+medium_unordered_multimapFind_BigO                   22343,97 (1)    22239,01 (1)
+medium_unordered_multimapFind_RMS                           0 %             0 %
+medium_unordered_multimapEqualRange/32       834568 ns       818102 ns          905
+medium_unordered_multimapEqualRange/64      1578020 ns      1566641 ns          454
+medium_unordered_multimapEqualRange/128     2987878 ns      2986468 ns          235
+medium_unordered_multimapEqualRange/256     6065391 ns      6061615 ns          109
+medium_unordered_multimapEqualRange/512    11891557 ns     11888069 ns           58
+medium_unordered_multimapEqualRange/1024   24159399 ns     24154793 ns           29
+medium_unordered_multimapEqualRange/2048   48288010 ns     48267400 ns           15
+medium_unordered_multimapEqualRange_BigO   23566,33 N      23557,19 N
+medium_unordered_multimapEqualRange_RMS           1 %             1 %
+
+medium_unordered_multimapRehash/32       811472 ns       801863 ns          923
+medium_unordered_multimapRehash/64      1485626 ns      1482485 ns          462
+medium_unordered_multimapRehash/128     2907311 ns      2904657 ns          239
+medium_unordered_multimapRehash/256     5879768 ns      5871263 ns          118
+medium_unordered_multimapRehash/512    13513412 ns     13080655 ns           58
+medium_unordered_multimapRehash/1024   29631712 ns     28145800 ns           30
+medium_unordered_multimapRehash/2048   54928043 ns     53515538 ns           13
+medium_unordered_multimapRehash_BigO   27137.17 N      26307.60 N
+medium_unordered_multimapRehash_RMS           6 %             4 %
+
+medium_unordered_multimapReserve/32       724756 ns       724460 ns          914
+medium_unordered_multimapReserve/64      1437691 ns      1437098 ns          479
+medium_unordered_multimapReserve/128     2881422 ns      2880371 ns          240
+medium_unordered_multimapReserve/256     5814997 ns      5810627 ns          110
+medium_unordered_multimapReserve/512    11533569 ns     11524317 ns           60
+medium_unordered_multimapReserve/1024   22967795 ns     22959233 ns           30
+medium_unordered_multimapReserve/2048   47085939 ns     47013867 ns           15
+medium_unordered_multimapReserve_BigO   22858,98 N      22829,94 N
+medium_unordered_multimapReserve_RMS           2 %             1 %
+
+large_unordered_multimapEmpty/128                        10,1 ns         10,0 ns     70168404
+large_unordered_multimapEmpty/256                        10,2 ns         10,1 ns     69618491
+large_unordered_multimapEmpty/512                        10,2 ns         10,1 ns     69289780
+large_unordered_multimapEmpty/1024                       10,1 ns         10,1 ns     67581266
+large_unordered_multimapEmpty/2048                       10,1 ns         10,1 ns     68659088
+large_unordered_multimapEmpty_BigO                      10,14 (1)       10,08 (1)
+large_unordered_multimapEmpty_RMS                           1 %             0 %
+large_unordered_multimapSize/128                         10,3 ns         10,3 ns     68731222
+large_unordered_multimapSize/256                         10,2 ns         10,2 ns     68650334
+large_unordered_multimapSize/512                         10,4 ns         10,3 ns     68010687
+large_unordered_multimapSize/1024                        10,3 ns         10,2 ns     68896960
+large_unordered_multimapSize/2048                        12,2 ns         11,9 ns     60063667
+large_unordered_multimapSize_BigO                       10,69 (1)       10,57 (1)
+large_unordered_multimapSize_RMS                            7 %             6 %
+large_unordered_multimapMaxSize/128                      30,8 ns         30,7 ns     23039655
+large_unordered_multimapMaxSize/256                      30,9 ns         30,6 ns     22881051
+large_unordered_multimapMaxSize/512                      30,6 ns         30,5 ns     23090651
+large_unordered_multimapMaxSize/1024                     30,5 ns         30,4 ns     23018063
+large_unordered_multimapMaxSize/2048                     30,9 ns         30,7 ns     24035408
+large_unordered_multimapMaxSize_BigO                    30,73 (1)       30,55 (1)
+large_unordered_multimapMaxSize_RMS                         1 %             0 %
+large_unordered_multimapCreate/128                        123 ns          123 ns      5330247
+large_unordered_multimapCreate/256                        122 ns          122 ns      5589269
+large_unordered_multimapCreate/512                        123 ns          123 ns      5787755
+large_unordered_multimapCreate/1024                       122 ns          121 ns      5784646
+large_unordered_multimapCreate/2048                       121 ns          121 ns      5551238
+large_unordered_multimapCreate_BigO                    122,27 (1)      121,96 (1)
+large_unordered_multimapCreate_RMS                          1 %             1 %
+large_unordered_multimapCreateAndClear/128         1399031763 ns   1394709000 ns            1
+large_unordered_multimapCreateAndClear/256         2744378411 ns   2739246000 ns            1
+large_unordered_multimapCreateAndClear/512         5548641546 ns   5519357000 ns            1
+large_unordered_multimapCreateAndClear/1024        12018315866 ns   11780413000 ns            1
+large_unordered_multimapCreateAndClear/2048        21564535029 ns   21533571000 ns            1
+large_unordered_multimapCreateAndClear_BigO        10773951,66 N    10715979,40 N
+large_unordered_multimapCreateAndClear_RMS                  6 %             5 %
+large_unordered_multimapCreateInsertAndErase/128     11934476 ns     11837651 ns           63
+large_unordered_multimapCreateInsertAndErase/256     11007034 ns     11002885 ns           61
+large_unordered_multimapCreateInsertAndErase/512     11614930 ns     11587534 ns           58
+large_unordered_multimapCreateInsertAndErase/1024    11453723 ns     11448984 ns           61
+large_unordered_multimapCreateInsertAndErase/2048    11784513 ns     11781642 ns           53
+large_unordered_multimapCreateInsertAndErase_BigO  11558935,25 (1)  11531739,13 (1)
+large_unordered_multimapCreateInsertAndErase_RMS            3 %             3 %
+large_unordered_multimapSwap/128                          254 ns          254 ns      2676834
+large_unordered_multimapSwap/256                          255 ns          255 ns      2606426
+large_unordered_multimapSwap/512                          254 ns          254 ns      2807637
+large_unordered_multimapSwap/1024                         256 ns          255 ns      2681622
+large_unordered_multimapSwap/2048                         256 ns          256 ns      2734140
+large_unordered_multimapSwap_BigO                      254,83 (1)      254,70 (1)
+large_unordered_multimapSwap_RMS                            0 %             0 %
+large_unordered_multimapCount/128  1633017954 ns   1598091000 ns            1
+large_unordered_multimapCount/256  2868526367 ns   2867122000 ns            1
+large_unordered_multimapCount/512  5714382635 ns   5711692000 ns            1
+large_unordered_multimapCount/1024 11607237341 ns   11577112000 ns            1
+large_unordered_multimapCount/2048 22882678076 ns   22871043000 ns            1
+large_unordered_multimapCount_BigO 11208035,86 N    11197138,17 N
+large_unordered_multimapCount_RMS           1 %             1 %
+
+large_unordered_multimapFind/128                     10137137 ns     10124914 ns           70
+large_unordered_multimapFind/256                     10212827 ns     10200214 ns           70
+large_unordered_multimapFind/512                     10186619 ns     10173600 ns           70
+large_unordered_multimapFind/1024                    10190223 ns     10182826 ns           69
+large_unordered_multimapFind/2048                    10444258 ns     10431149 ns           67
+large_unordered_multimapFind_BigO                  10234212,66 (1)  10222540,78 (1)
+large_unordered_multimapFind_RMS                            1 %             1 %
+large_unordered_multimapEqualRange/128  1766149616 ns   1729484000 ns            1
+large_unordered_multimapEqualRange/256  3276167066 ns   3230551000 ns            1
+large_unordered_multimapEqualRange/512  6081913360 ns   6078221000 ns            1
+large_unordered_multimapEqualRange/1024 12174339700 ns   12161828000 ns            1
+large_unordered_multimapEqualRange/2048 24721495746 ns   24709232000 ns            1
+large_unordered_multimapEqualRange_BigO 12041440,31 N    12031383,02 N
+large_unordered_multimapEqualRange_RMS           2 %             1 %
+
+large_unordered_multimapRehash/128                 1415377723 ns   1413819000 ns            1
+large_unordered_multimapRehash/256                 2836009583 ns   2832727000 ns            1
+large_unordered_multimapRehash/512                 5667552714 ns   5661864000 ns            1
+large_unordered_multimapRehash/1024                11416628473 ns   11404370000 ns            1
+large_unordered_multimapRehash/2048                23159446671 ns   23132838000 ns            1
+large_unordered_multimapRehash_BigO                11263787,17 N    11251079,02 N
+large_unordered_multimapRehash_RMS                          1 %             1 %
+large_unordered_multimapReserve/128                1425799089 ns   1424317000 ns            1
+large_unordered_multimapReserve/256                2848619240 ns   2845263000 ns            1
+large_unordered_multimapReserve/512                5672586932 ns   5666404000 ns            1
+large_unordered_multimapReserve/1024               11401277183 ns   11390005000 ns            1
+large_unordered_multimapReserve/2048               23047074304 ns   23024997000 ns            1
+large_unordered_multimapReserve_BigO               11221059,19 N    11210145,96 N
+large_unordered_multimapReserve_RMS                         1 %             1 %

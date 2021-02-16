@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runner">
+				<Option output="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/runner" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 runner"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runner/fast">
+				<Option output="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/runner" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 runner/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils">
+				<Option output="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/libutils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 utils"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils/fast">
+				<Option output="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/libutils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 utils/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests">
+				<Option output="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/tests/tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/tests/../../googletest/googletest/include"/>
+					<Add directory="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tests/fast">
+				<Option output="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/tests/tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/tests/../../googletest/googletest/include"/>
+					<Add directory="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/Calculator.h">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/factory/executor/AcousticCpuCore.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/factory/executor/AcousticCudaCore.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/factory/executor/AnisotropicCpuCore.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/factory/executor/AnisotropicCudaCore.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/factory/executor/Core.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/factory/executor/CoreFactory.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/factory/executor/CpuCoreFactory.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/factory/executor/CudaCoreFactory.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/factory/executor/Demo.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/factory/executor/ElasticCpuCore.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/factory/executor/ElasticCudaCore.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/factory/gui/ButtonGnomeWidget.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/factory/gui/ButtonKdeWidget.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/factory/gui/CheckBoxGnomeWidget.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/factory/gui/CheckBoxKdeWidget.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/factory/gui/Demo.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/factory/gui/GnomeWidgetFactory.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/factory/gui/KdeWidgetFactory.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/factory/gui/ListGnomeWidget.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/factory/gui/ListKdeWidget.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/factory/gui/Widget.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/factory/gui/WidgetFactory.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/observer/observers/Acceleration.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/observer/observers/Displacement.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/observer/observers/Observable.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/observer/observers/Observer.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/include/observer/observers/Speed.h">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/Calculator.cpp">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/factory/executor/AcousticCpuCore.cpp">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/factory/executor/AcousticCudaCore.cpp">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/factory/executor/AnisotropicCpuCore.cpp">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/factory/executor/AnisotropicCudaCore.cpp">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/factory/executor/CpuCoreFactory.cpp">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/factory/executor/CudaCoreFactory.cpp">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/factory/executor/Demo.cpp">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/factory/executor/ElasticCpuCore.cpp">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/factory/executor/ElasticCudaCore.cpp">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/factory/gui/ButtonGnomeWidget.cpp">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/factory/gui/ButtonKdeWidget.cpp">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/factory/gui/CheckBoxGnomeWidget.cpp">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/factory/gui/CheckBoxKdeWidget.cpp">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/factory/gui/Demo.cpp">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/factory/gui/GnomeWidgetFactory.cpp">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/factory/gui/KdeWidgetFactory.cpp">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/factory/gui/ListGnomeWidget.cpp">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/factory/gui/ListKdeWidget.cpp">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/main.cpp">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/observer/observers/Acceleration.cpp">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/observer/observers/Displacement.cpp">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/observer/observers/Observable.cpp">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/src/observer/observers/Speed.cpp">
+			<Option target="runner"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/tests/src/CalculatorTest.cpp">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/tests/src/ObserverTest.cpp">
+			<Option target="tests"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/michalpodstawski/Studia/oop_2020_michal_podstawski/05_design_patterns/02_exercise/project/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
